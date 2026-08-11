@@ -1,43 +1,32 @@
-# Project Development Orchestrator
+# Project Development Orchestrator: No Longer Published as a Skill
 
-For individuals and teams that need a reusable Agent Skill workflow. This package addresses a concrete workflow problem and returns an auditable next step instead of claiming external completion.
+[中文](README.md) | [English](README_EN.md)
 
-**Current status:** `v0.1.0-alpha.1` is the first fixed source version. No GitHub Release is provided. **Next step:** install the fixed Tag, run one minimal invocation, and keep every external action behind human approval. [中文主入口](README.md).
+This repository no longer ships an installable or invocable Skill. The former public package contained lifecycle-routing and authorization principles. Without private project instructions, version governance, specialist execution Skills, project state, and approval flows, it could not independently take over, build, verify, or deliver a project.
 
-## Problem and result
+## Why publication stopped
 
-- 识别新建、续做与接管场景
-- 建立需求—验收—测试追溯
-- 判断版本影响
-- 输出交付与回滚状态
+“Managing an entire project” is not a single independently receivable result. The package provided no delivery-truth checker, Release traceability tool, platform version matrix, requirement-clarification template, or real project replay. It therefore presented an internal controller as a standalone product without passing the independent-value gate.
 
-## Installation
+## Current status
 
-Install the fixed Tag: `git clone --branch v0.1.0-alpha.1 --depth 1 https://github.com/slalomboy/project-development-orchestrator.git`. Install the repository root as a Skill.
+- Current fixed Tag: [`v0.2.0-alpha.1`](https://github.com/slalomboy/project-development-orchestrator/tree/v0.2.0-alpha.1).
+- Status: `DEPRECATED_PUBLIC_SKILL_BODY_REMOVED`.
+- Current `main` contains no `SKILL.md` and provides no installation or invocation path.
+- The repository, public visibility, Apache-2.0 license, and historical Tags remain unchanged. No Release was created.
 
-## First use
+## Historical recovery
 
-Invoke it with the example in [Quickstart](docs/en/quickstart.md).
-
-## Workflow
-
-The Skill confirms the input and authorization boundary, selects the minimum capability, produces a local reviewable result, and stops before any external action.
-
-## Verified scope
-
-The repository structure, fixed version, required paths, temporary-directory installation, bilingual facts, license, and sensitive-data boundary are covered by deterministic checks.
+The former public-light package remains at [`v0.1.0-alpha.1`](https://github.com/slalomboy/project-development-orchestrator/tree/v0.1.0-alpha.1) for audit, comparison, and recovery only. It is no longer a recommended installation source.
 
 ## Limitations
 
-- 不包含私有治理规则、账号、项目清单或交付数据
-- 不自动部署、推送、付费或改权限
-- 专业实现仍交给对应领域能力
+- The current repository cannot take over, build, test, publish, or deploy a project.
+- It provides no permission, version, state, or external-action decision service.
+- Future publication must start from a concrete atomic tool with independent inputs, outputs, and real replays—not from the claim that a controller is itself a product.
 
-## Version, license, and provenance
+## License
 
-- Version: `v0.1.0-alpha.1`.
-- License: [`Apache-2.0`](LICENSE), explicitly selected by the owner.
-- Provenance: a public-light rewrite of an internally developed Dalin AI Works capability. Private paths, credentials, customer data, and internal control planes are excluded.
-- Status: `PUBLICATION_AUTHORIZED_PENDING_REMOTE_VERIFICATION`.
+Existing repository materials remain available under [Apache-2.0](LICENSE). Maintained by Dalin AI Works.
 
-[中文主入口](README.md) · [English docs](docs/en/README.md) · [License record](LICENSE-DECISION.md)
+[English deprecation documentation](docs/en/README.md) · [License record](LICENSE-DECISION.md)

@@ -1,9 +1,5 @@
-# Quickstart
+# Quickstart: Safe Next Action
 
-1. Confirm the input is owned, authorized, or otherwise lawful to process.
-2. Clone the fixed `v0.1.0-alpha.1` Tag.
-3. Install the repository root as an Agent Skill.
-4. Invoke: “使用 project-development-orchestrator 接手这个现有项目，先只读盘点事实并给出最小修复计划。”
-5. Review the output and stop at any external-action gate.
+[中文主入口](../../README.md) · [English docs](README.md)
 
-[中文主入口](../../README.md) · [Usage](usage.md)
+There is no current installation or invocation path. Use [`v0.1.0-alpha.1`](https://github.com/slalomboy/project-development-orchestrator/tree/v0.1.0-alpha.1) only for historical audit or recovery.

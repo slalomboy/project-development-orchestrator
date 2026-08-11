@@ -1,14 +1,17 @@
-# Repository publication audit
+# Repository Audit Report
 
 - Repository: `project-development-orchestrator`
-- Repository type: `standalone_skill`
-- Asset coverage: `A22`
-- Target version: `v0.1.0-alpha.1`
+- Version: `v0.2.0-alpha.1`
+- License: `Apache-2.0`
+- Repository type: `deprecation_archive`
+- Independent-value decision: former package required private governance and did not independently deliver a project result
+- Removed current paths: `SKILL.md`, `scripts/validate-public-skill.mjs`, `tests/public-package.test.mjs`
 - Chinese primary entry and human-reviewed English entry: present
-- English quickstart, usage, and limitations: present
-- README, SKILL, VERSION, LICENSE, manifest, audit, tests: present
-- Sensitive paths, credentials, customer data, and drifting main links: prohibited by deterministic checks
-- License: owner-approved `Apache-2.0`; LICENSE present
-- Local installation: temporary-directory copy, frontmatter, version, and required child-path readback verified before push
-- GitHub Release: none and not claimed
-- Pre-publication status: `READY_FOR_APPROVAL`
+- English README, quickstart, usage, and limitations: present and mutually linked
+- Current installation or invocation claim: absent
+- Historical recovery Tag: `v0.1.0-alpha.1`, preserved without modification
+- Bilingual deprecation audit: `BILINGUAL_DEPRECATION_READY`, zero errors
+- Sensitive path and credential scan: no match
+- GitHub Release: not created
+
+Status: `DEPRECATION_PUBLISH_AUDIT_PASS_PENDING_REMOTE_READBACK`
