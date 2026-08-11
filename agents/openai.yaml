@@ -1,0 +1,6 @@
+interface:
+  display_name: "项目开发总控"
+  short_description: "从需求资料到开发、验证、发布与续跑的项目生命周期总控"
+  default_prompt: "使用 $project-development-orchestrator 读取当前项目，补齐必要资料并从正确阶段持续推进。"
+policy:
+  allow_implicit_invocation: true

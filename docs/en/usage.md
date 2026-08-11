@@ -1,5 +1,7 @@
-# Permitted Archive Use
+# Usage
 
-[中文主入口](../../README.md) · [English docs](README.md)
+[中文指南](../usage.md) · [中文主入口](../../README.md) · [Back to English README](../../README_EN.md)
 
-The current repository may be used to review the deprecation decision and compare historical source. It must not be presented as an active development controller or project-delivery Skill.
+Minimum intake covers the problem, users, successful path, must-haves, exclusions, and constraints. Select `lightweight`, `standard`, or `full`, then move through intake, discovery, specification, design, planning, implementation, verification, release, and operation.
+
+Every change records objective, scope, exclusions, risk, version impact, acceptance, and rollback. External actions require separate authority. A failed gate returns to the stage that owns the defect; renaming the state cannot bypass evidence.

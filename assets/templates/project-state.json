@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "name": "Project name",
+    "slug": "project-slug"
+  },
+  "mode": "greenfield",
+  "profile": "standard",
+  "stage": "intake",
+  "status": "active",
+  "version": "0.1.0",
+  "artifacts": [],
+  "active_change": null,
+  "decisions": [],
+  "blockers": [],
+  "pending_approvals": [],
+  "last_verification": {
+    "status": "pending",
+    "evidence": []
+  },
+  "next_action": "Complete the six-field project intake",
+  "updated_at": "2026-07-12T00:00:00+08:00"
+}

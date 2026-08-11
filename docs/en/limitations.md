@@ -1,8 +1,9 @@
-# Limitations
+# Limitations and Public Boundary
 
-[中文主入口](../../README.md) · [English docs](README.md)
+[中文指南](../limitations.md) · [中文主入口](../../README.md) · [Back to English README](../../README_EN.md)
 
-- No current Skill body, installation path, invocation, project workflow, or delivery result.
-- Historical source depends on private governance context and does not prove standalone value.
-- No GitHub Release is provided.
-- Concrete child tools require separate implementation and evidence before publication review.
+- The Skill does not replace specialist development, design, database, video, or deployment capabilities.
+- It does not automatically install dependencies, write external systems, migrate data, deploy, publish, push, change permissions, or perform destructive recovery.
+- Source tests do not prove candidate packages, installation, signing, Releases, or user-side outcomes.
+- The public package excludes customer data, private project records, credentials, machine paths, and private role routing.
+- `v0.5.0-alpha.1` is a fixed source Tag, not a GitHub Release.
